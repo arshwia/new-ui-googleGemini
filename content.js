@@ -20,6 +20,7 @@ function hideElements() {
   if (box1) box1.style.display = "none";
   if (box2) box2.style.display = "none";
 
+  // TODO  باید ببینم چه طوری واقعا سایز این رو کوچیک نگه دارم
   if (inputpromt) inputpromt.style.setProperty("height", "35px", "important");
   if (inputpromt) inputpromt.style.margin = "0 !important";
   if (inputpromt) inputpromt.style.padding = "0 !important";
