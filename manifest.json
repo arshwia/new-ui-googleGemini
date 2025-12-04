@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Silent Extension Gemini",
+  "version": "1.0",
+  "permissions": ["tabs", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://gemini.google.com/app/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
